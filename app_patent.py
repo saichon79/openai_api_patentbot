@@ -44,7 +44,7 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("Patent AI Assistant")
+st.title("Patent AI Assistant -信栄１号-")
 # st.image("06_fortunetelling.png")
 st.image("patent_attorney_bot_image.jpg")
 st.write("ChatGPT APIを使ったチャットボットです。")
