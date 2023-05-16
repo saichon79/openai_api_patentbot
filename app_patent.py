@@ -45,7 +45,8 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("Patent AI Assistant")
-st.image("06_fortunetelling.png")
+# st.image("06_fortunetelling.png")
+st.image("patent_attorney_bot_image.jpg")
 st.write("ChatGPT APIを使ったチャットボットです。")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
